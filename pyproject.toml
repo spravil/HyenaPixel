@@ -1,0 +1,32 @@
+[project]
+name = "hyenapixel"
+version = "0.1.0"
+description = ""
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "torchvision",
+    "timm==0.9.12",
+    "einops==0.7.0",
+    "fvcore",
+]
+[project.optional-dependencies]
+dev = ["black", "isort"]
+tests = ["pytest"]
+
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 120
+target-version = ['py37', 'py38', 'py39', 'py310', 'py311']
+skip-string-normalization = true
+skip-magic-trailing-comma = true
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.ruff]
+line-length = 120
