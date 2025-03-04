@@ -1,10 +1,7 @@
 # [HyenaPixel: Global Image Context with Convolutions](https://arxiv.org/abs/2402.19305)
 
-<p align="left">
-<a href="https://arxiv.org/abs/2402.19305" alt="arXiv">
-<img src="https://img.shields.io/badge/arXiv-2402.19305-b31b1b.svg?style=flat" />
-</a>
-</p>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hyenapixel-global-image-context-with/image-classification-on-imagenet)](https://paperswithcode.com/sota/image-classification-on-imagenet?p=hyenapixel-global-image-context-with)
+[![arXiv](https://img.shields.io/badge/arXiv-2402.19305-b31b1b.svg?style=flat)](https://arxiv.org/abs/2402.19305)
 
 Official PyTorch implementation for our paper "[HyenaPixel: Global Image Context with Convolutions](https://arxiv.org/abs/2402.19305)".
 
@@ -63,10 +60,11 @@ This research has been funded by the Federal Ministry of Education and Research 
 ## Bibtex
 
 ```
-@article{spravil2024hyenapixel,
-  title={HyenaPixel: Global Image Context with Convolutions},
-  author={Julian Spravil and Sebastian Houben and Sven Behnke},
-  journal={arXiv preprint arXiv:2402.19305},
-  year={2024},
+@inproceedings{spravil2024hyenapixel,
+  author    = {Julian Spravil and Sebastian Houben and Sven Behnke},
+  title     = {HyenaPixel: Global Image Context with Convolutions},
+  booktitle = {ECAI},
+  pages     = {521--528},
+  year      = {2024},
 }
 ```
